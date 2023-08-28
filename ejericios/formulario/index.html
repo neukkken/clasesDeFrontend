@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ta.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="formDatosUsuario" action="">
+        <div class="fieldset">
+            <fieldset id="fieldset1">
+                <legend>Datos aprendiz</legend>
+                
+                    <div class="izquierda">
+                        <label for="">Identificacion
+                            <input type="number" title="cc">
+                        </label>
+                    
+                        <label for="">Nombre:
+                            <input type="text" title="nombre">
+                        </label>
+        
+                        <label for="">Genero</label>
+        
+                        <label for="">Hombre
+                            <input type="radio" name="h">
+                        </label>
+        
+                        <label for="">Mujer
+                            <input type="radio" name="h">
+                        </label>
+        
+                        <label for="">Fecha de Nacimiento
+                            <input type="date" name="fn">
+                        </label>
+                    </div>
+    
+                    <div class="derecha">
+                        <label for="">cual es tu color favorito?
+                            <input type="color">
+                        </label>
+    
+                        <label for="">Email
+                            <input type="email" name="" id="">
+                        </label>
+
+                        <a href="subformulario/index.html" style="margin-top: 20px;" target="_blank">Cargar avances</a>
+
+                    </div>
+            </fieldset>
+
+            <fieldset id="fieldsetPerfil"">
+                <legend>Perfil</legend>
+                <label for="">
+                    <input title="a" type="file" id="miImagen" name="nameImagen" accept=".jpg, .png, .jpeg" multiple>
+                </label>
+
+                <table>
+                    <thead>
+                        <th>Id</th>
+                        <th>Gustos</th>
+                        <th>Estudias</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>512</td>
+                            <td>musica</td>
+                            <td>no sé</td>
+                        </tr>
+                        <tr>
+                            <td>512</td>
+                            <td>musica</td>
+                            <td>no sé</td>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        
+
+                    </tbody>
+                </table>
+
+                <button style="width: 100px;">Mi boton</button>
+            </fieldset>
+        </div>
+
+        <fieldset id="fieldset2">
+            <legend>Datos laborales</legend>
+            <label for="">Que idiomas maneja
+                <input list="Idiomas">
+                <datalist id="Idiomas">
+                    <option value="Ingles"></option>
+                    <option value="Frances"></option>
+                    <option value="Español"></option>
+                </datalist>
+            </label>
+
+            <div class="lenguajes">
+                <label for="">Lenguajes</label>
+                <label for="">
+                    <input title="hola" type="checkbox" name="" id="">PHP
+                </label>
+
+                <label for="">
+                    <input title="hola" type="checkbox" name="" id="">JavaScript
+                    
+                </label>
+                <label for="">
+                    <input title="hola" type="checkbox" name="" id="">Java
+                </label>
+            </div>
+
+            <label for="">Hora de entrevista
+                <input type="time">
+            </label>
+
+        </fieldset>
+    </form>
+
+
+
+</body>
+</html>

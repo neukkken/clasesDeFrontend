@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Handjet:wght@500&family=Poppins&family=Preahvihear&family=Raleway:wght@500&family=Roboto&display=swap');
+
+body{
+    
+    margin: 0px;
+    font-family: 'Raleway';
+}
+
+img{
+    width: 20px;
+}
+
+#section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#section1 .iconos{
+    margin-left: 25px;
+}
+
+#section1 .iconos img{
+    padding: 0px 5px;
+}
+
+#section1 article p{
+    margin: 0px;
+    font-size: 10px;
+}
+
+#titulo h1{
+    width: 200px;
+    margin: 0px;
+}
+
+a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 0px 10px;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: antiquewhite;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    padding: 25px;
+    background-color: rgb(50, 50, 87);
+}
+
+#section2{
+    background-color: #b59720;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#section2 article{
+    padding: 0px 70px 0px 30px;
+}
+
+#section2 .imagen{
+    padding: 10px;
+    background-color: white;
+}
+
+#section2 .imagen img{
+    width: 250px;
+    
+}
+
+.botonEnviar{
+    border-radius: 20px;
+    padding: 5px 20px;
+    border: none;
+    margin: 0px 30em;
+    transition: 0.3s;
+}
+
+.botonEnviar:hover{
+    transition: 0.3s;
+    color: white;
+    background-color: rgb(50, 50, 87);
+}
+
+#section3{
+    margin: 25px 0px;
+    background-color: rgb(50, 50, 87);
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+#section3 address p{
+    color:#b59720;
+    margin: 5px;
+}
+
+#section3 div{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.m{
+    width: 400px;
+}
+
+.dudoso{
+    margin: 0px;
+    font-size: 30px;
+}
+
+
+
+
+footer{
+    padding: 40px;
+    background-color: #A38F6D;
+}
+
+footer article{
+    margin: 15px 0px;
+}
+
+footer p{
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#slider{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+}
+
+#cambiarColor{
+    color: black;
+    transition: 0.3s;
+}
+
+#cambiarColor:hover{
+    transition: 0.3s;
+    color: red;
+    font-size: 15px;
+}
+
+
+#formDatosUsuario fieldset .izquierda{
+    display: flex;
+    flex-direction: column;
+}
+
+#formDatosUsuario fieldset .derecha{
+    display: flex;
+    flex-direction: column;
+}
+
+#formDatosUsuario fieldset{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#fieldset2{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+#fieldset2 .lenguajes{
+    display: flex;
+    flex-direction: column;
+}
+
+.fieldset{
+    display: flex;
+}
+
+#fieldsetPerfil{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#fieldsetPerfil legend{
+    color: black;
+}
+
+table{
+    text-align: center;
+    border: solid 2px;
+}
+
+table tr,td,th{
+    border: solid 2px;
+    text-align: center;
+}
+
+legend{
+    color: red;
+}
