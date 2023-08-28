@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=Ubuntu:ital,wght@0,400;1,500;1,700&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    background-color: #7a7a7a7a;
+    background-image: url(img/background2.jpg);
+    background-size: contain;
+    background-attachment: scroll;
+}
+
+div{
+    margin: 120px;
+    background-color: #757575;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    transition: 0.8s;
+    
+}
+
+div:hover{
+    transition: 0.8s;
+    transform: scale(130%);
+    box-shadow: 20px 10px 700px white;
+}
+
+.seccionInicial{
+    transition: 0.3s;
+    background-color: #757575;
+    padding: 50px;
+    border-radius: 30px;
+    background-image: url(img/background2.jpg);
+    background: cover no-repeat;
+    box-shadow: 2px 1px 50px white;
+}
+
+.seccionInicial:hover{
+    transition: 0.3s;
+    box-shadow: 2px 1px 200px white;
+    transform: scale(120%);
+}
+
+.seccionInicial a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.seccionInicial a:hover{
+    transition: 0.3s;
+    color: black;
+}

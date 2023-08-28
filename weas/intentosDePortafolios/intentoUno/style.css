@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Handjet:wght@500&family=Montserrat:wght@200;300;400;500;700&family=Poppins&family=Preahvihear&family=Raleway:wght@500&family=Roboto:ital,wght@1,900&family=Rubik:ital,wght@0,300;0,500;1,900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    background-color: black;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+header a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 90%;
+}
+
+
+header .main{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    transition: 0.3s;
+}
+
+header .main:hover{
+    transition: 0.3s;
+    color:#FF0000;
+}
+
+header .main p{ 
+    padding: 0px 10px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav a{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+header nav a:hover{
+    border-bottom: 4px solid #f5f5f5;
+}
+
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.presentacion{
+    padding: 50px 0px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.presentacion h6{
+    color: #f66565;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin: 0px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.presentacion h6:hover{
+    transition: 0.3s;
+    color: red;
+}
+
+.presentacion h1{
+    margin: 0px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+.presentacion p{
+    color: rgba(255, 255, 255, 0.918);
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#post{
+    display: block;
+}
+
+#post h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 40px 0px 0px 0px;
+}
+
+#post .cart{
+    background-color: #919191;
+    width: 270px;
+    height: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#post .cart h1{
+    margin: 5px;
+}
+
+
+#post .cart h1{
+    font-size: 29px;
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+}
+
+#post .cart:hover{
+    transition: 0.3s;
+    transform: scale(105%);
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(245px,1fr));
+    grid-gap: 3rem;
+    margin: 3rem 0;
+}

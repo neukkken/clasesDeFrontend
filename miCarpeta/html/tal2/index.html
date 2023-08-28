@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WalterWhite6.com</title>
+</head>
+<body>
+<!-- 
+    <header>
+        <nav>
+            <a href="" id="Home1">
+                <img src="pokemon_icon.png" alt="">
+                <p>Home</p>
+            </a>
+            <a href="" id="Home2">
+                <img src="pokemon_icon.png" alt="">
+                <p>Home</p>
+            </a>
+            <a href="" id="Home3">
+                <img src="pokemon_icon.png" alt="">
+                <p>Home</p>
+            </a>
+            <a href="" id="Home4">
+                <img src="pokemon_icon.png" alt="">
+                <p>Home</p>
+            </a>
+            <a href="" id="Home5">
+                <img src="pokemon_icon.png" alt="">
+                <p>Home</p>
+            </a>
+            <a href="" id="Home6">
+                <img src="pokemon_icon.png" alt="">
+                <p>Home</p>
+            </a>
+            <a href="" id="Home6">
+                <img src="pokemon_icon.png" alt="">
+                <p>Home</p>
+            </a>
+        </nav>
+    </header> -->
+
+    <form id="form_1" name="Formulario De WalterWhite" action="text.txt">
+        <fieldset>
+        <legend><strong>MIS DATOS PRINCIPALES</strong></legend>
+        
+        <label for="">Nombre de Usuario:
+            <input type="text" name="username" id="username" placeholder="Nombre" required>
+        </label>
+        <br>
+
+        <label for="">Contraseña:
+            <input type="password" name="password" id="password">
+        </label>
+
+        <br>
+
+        <label for="">Email:
+            <input type="email" name="email" id="email">
+        </label>
+
+        <br>
+
+        <label for="miFecha">Fecha de Nacimiento:
+            <input type="date" name="date" id="date" value="2003-12-01" min="2000-01-01" max="2023-08-09" required pattern="\d{4}-\d{2}-\d{2}">
+        </label>
+
+        <br>
+
+        <label for="">Estudio en:</label>
+        <select name="ciudad" id="ciudad">
+            <option value="none" disabled >Selecione</option>
+            <option value="Popayan">Popayán</option>
+            <option value="Popayan">Pasto</option>
+            <option value="Popayan">Cali</option>
+        </select>
+        
+        <br>
+
+        <select name="" id="">
+            <optgroup label="1. Requerimientos">
+                <option value="Sprints">Sprint 1.1</option>
+            </optgroup>
+
+            <optgroup label="2. Base De Datos">
+                <option value="mRelacional">Modelo Relacional 2.1</option>
+                <option value="mRelacional">Modelo Relacional 2.2</option>
+            </optgroup>
+
+            <optgroup label="3. Frontend">
+                <option value="">HTML 3.1</option>
+                <option value="">CSS 3.2</option>
+            </optgroup>
+        </select>
+
+        <br>
+
+        <label for="">Edad:
+            <input type="number" min="0" max="100" step="1" name="edad" id="edad">
+        </label>
+
+        <br>
+
+        <label for="phone">Telefono:
+            <input type="tel" name="phone" id="phone">
+        </label>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>MIS DATOS SECUNDARIOS</strong></legend>
+            <label for="">Estudia:</label>
+            <br>
+            
+            <label for="FrontEnd">FrontEnd
+                <input type="radio" name="curso" id="front">
+            </label>
+            
+            <br>
+            <label for="BackEnd">BackEnd
+                <input type="radio" name="curso" id="back">
+            </label>
+            
+            <br>
+            <label for="Base De Datos">Base De Datos
+                <input type="radio" name="curso" id="back">
+            </label>
+            
+            <br>
+            <label for="Requerimientos">Requerimientos
+                <input type="radio" name="curso" id="back">
+            </label>
+            
+            <br>
+            <br>
+            <label for="">Programo en:</label>
+            <br>
+            <label for="">Python
+                <input type="checkbox" name="lenguaje" id="python">
+            </label>
+            <br>
+            <label for="">Javascript
+                <input type="checkbox" name="lenguaje" id="js">
+            </label>
+            <br>
+            <label for="">Rubi
+                <input type="checkbox" name="lenguaje" id="rubi">
+            </label>
+            <br>
+            <label for="">Java
+                <input type="checkbox" name="lenguaje" id="java">
+            </label>
+            <br>
+            <label for="">Php
+                <input type="checkbox" name="lenguaje" id="php">
+            </label>
+            <br>
+            <label for="">C#
+                <input type="checkbox" name="lenguaje" id="C#">
+            </label>
+            <br>
+            <label for="">C++
+                <input type="checkbox" name="lenguaje" id="C++">
+            </label>
+            
+            <br>
+            <br>
+
+            <label for="color">Me encanta el color
+                <input type="color" value="#919191" name="color" id="color">
+            </label>
+
+            <br>
+            <br>
+
+            <textarea name="comentarios" id="comentarios" cols="40" rows="10" placeholder="Coloca aquí tus comentarios"></textarea>
+
+            <br>
+            <br>
+
+            <label for="myNavegador">En que navegador prefieres trabajar:
+                <input list="navegador" id="myNavegador" name="myNavegador">
+                <datalist id="navegador">   
+                    <option value="Chrome"></option>
+                    <option value="Safari"></option>
+                    <option value="Firefox"></option>
+                    <option value="Opera"></option>
+                    <option value="Microsoft Edge"></option>
+                    <option value="Vivaldi"></option>
+                </datalist>
+            </label>
+
+            <br>
+            <br>
+
+            <label for="time">Hora:
+                <input type="time" id="time" name="time" list="atime">
+                <datalist id="atime">
+                    <option value="12:30"></option>
+                    <option value="13:30"></option>
+                    <option value="14:35"></option>
+                </datalist>
+            </label>
+            
+            <br>
+            <br>
+
+            <label for="Preferencia">Preferencia
+                <input id="inputPro" type="range" min="5" max="10" step="0.1">
+            </label>
+
+            <br>
+            <br>
+
+            <label for="colorP">Color preferido
+                <input type="color" id="colorPre" name="ColorPre" list="ColorPre" value="#ffffff">
+                <datalist id="ColorPre">
+                    <option value="#b71c1c"></option>
+                    <option value="#d50000"></option>
+                    <option value="#e53935"></option>
+                    <option value="#ef5350"></option>
+                </datalist>
+            </label>
+            <br>
+            <br>
+            <label for="miImagen">Origen de la imagen
+                <input type="file" id="miImagen" name="nameImagen" accept=".jpg, .png, .jpeg" multiple>
+            </label>
+        </fieldset>
+
+        <input type="submit" name="enviar" id="enviar" value="Aceptar">
+
+        <br>
+
+        <input type="reset" value="Borrar">
+
+    </form>
+
+</body>
+</html>

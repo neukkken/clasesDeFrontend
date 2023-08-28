@@ -46,7 +46,7 @@ a{
 a:hover{
     color: antiquewhite;
     transition: 0.3s;
-    font-size: 15px;
+    transform: scale(120%);
 }
 
 nav{
