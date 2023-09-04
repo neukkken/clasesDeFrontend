@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a.com</title>
+</head>
+<body>
+
+    <form action="exito.html">
+        <h1>Formulario</h1>
+        <label for="">Tipo de Identificacion:
+            <select required name="tipoDeIdentificacion" id="tipoDeIdentificacion">
+                <option value=""></option>
+                <option value="">TI</option>
+                <option value="">CC</option>
+                <option value="">CE</option>
+                <option value="">RC</option>
+            </select>
+        </label>
+
+        <label for="numeroDeIdenficacion">Numero de Identificacion:
+            <input required type="number" title="numeroDeIdenficacion">
+        </label>
+
+        <label for="nombre">Nombre:
+            <input required type="text" title="nombre">
+        </label>
+
+        <label for="apellido">Apellido:
+            <input required type="text" name="apellido" id="apellido">
+        </label>
+
+        <label for="correoElectronico">Correo Electronico:
+            <input required type="email" name="correoElectronico" id="correoElectronico">
+        </label>
+
+        <label for="numCelular">Numero de Celular:
+            <input required type="tel" name="numCelular" id="numCelular">
+        </label>
+
+        <label for="">Foto de perfil
+            <input required type="file" accept=".png, .jpg">
+        </label>
+
+        <div class="botones">
+            <button type="submit">Aceptar</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </form>
+
+</body>
+</html>

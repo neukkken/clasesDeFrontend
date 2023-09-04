@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+
+*{
+    font-family: Roboto;
+}
+
+body{
+    width: auto;
+    height: auto;
+    background-color: brown;
+    margin: 0;
+}
+
+.galeria img{
+    width: 20%;
+    transition: 0.3s;
+    opacity: 0.4;
+}
+
+.galeria{
+    transform: translateY(50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.galeria img:hover{
+    opacity: 1;
+    transition: 0.7s;
+    transform: scale(150%);
+}
+
+.fondo{
+    background: url(../img/desktop-1920x1080.jpg);
+    border: 1px solid white;
+}
+
+.fondo .transparent{
+    opacity: 0.7;
+    margin: 10%;
+}
+
+.fondo .transparent p{
+    color: white;
+    padding: 10%;
+    font-weight: 900;
+    font-size: 2em;
+}
