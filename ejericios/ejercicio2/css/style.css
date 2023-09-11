@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Playfair+Display:ital,wght@0,700;1,700&family=Rubik:wght@300;500;700&family=Tangerine:wght@700&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    border: 2px solid #000;
+    overflow: hidden;
+    background: url(../img/fondo2.jpg);
+    background-size: cover;
+    width: 450px;
+    height: 260px;
+    border-radius: 50px;
+    font-family: 'Anonymous Pro', monospace;
+    margin: 20px 0px;
+
+}
+
+.container .ba{
+    display: flex;
+    transform: translate(150px);
+    height: 75px;
+}
+
+.container img{
+    width: 20%;
+}
+
+.container .chip{
+    margin: 2px 50px;
+    transform: translateX(-150px);
+}
+
+.container .informacion{
+    color: white;
+}
+
+.container .numero{
+    width: 100%;
+    font-size: 30px;
+    word-spacing: 0.5em;
+    
+    
+}
+
+.container .informacion .numeroPeque{
+    text-align: start;
+    margin: 0px 60px;
+    font-size: 15px;
+}
+
+.container .informacion .cad{
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-15px);
+    font-size: 10px;
+    align-items: end;
+}
+
+.container .informacion .cad p{
+    width: 30px;
+    margin: 0px 5px;
+
+}
+
+.container .informacion .cad .year .date{
+    font-size: 15px;
+}
+
+.container .nombre{
+    font-weight: bold;
+    text-align: start;
+    margin: 0px 30px;
+}
+
+.container .blackLine{
+    background-color: black;
+    width: 100%;
+    height: 20%;
+    transform: translateY(20px);
+    
+}
+
+.container .texto{
+    color: white;
+    transform: translateY(10px);
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container .line{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.line div{
+    margin: 5px;
+    width: 98%;
+    height: 30%;
+    background-color: #9191916e;
+}
+
+.container .lorem{
+    margin: 5px 0px;
+    font-size: 8.3px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.numeroRevez{
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    word-spacing: 0.5em;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin: 0px;
+}
+
+.ba2{
+    width: 100%;
+    margin: 0px 20px;
+    transform: translateY(-20px);
+}
+
+
+.lorem2{
+    margin: 0px 10px;
+    font-size: 7px;
+    text-align: start;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+.izquierda{
+    width: 55%;
+    height: auto;
+}
+
+.marca2{
+    width: 100%;
+    margin: 0px 5px;
+    transform: translateY(-25px);
+    height: 50px;
+}
+
+.marca2{
+    
+}
+
+.centro{
+    transform: translateY(-50px);
+    font-weight: bold;
+    text-align: start;
+}
+
+.yearRevez{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.derecha{
+    width: 55%;
+    height: auto;
+    transform: translateY(-45px);
+}
+
+.derecha .lorem3{
+    font-size: 10px;
+    width: 70%;
+    color: white;
+    font-weight: bold;
+    transform: translateX(50px);
+}
+
+.direc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.derecha .nombre2{
+    -webkit-transform: scaleX(-1);
+    margin: 0px 40px;
+    font-weight: bold;
+
+}
+
+button{
+    transition: 0.1s;
+}
+
+button:active{
+    background-color: rgb(139, 139, 204);
+}
