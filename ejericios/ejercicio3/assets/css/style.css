@@ -51,14 +51,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .tri .tal div p{
     transform: scale(250%);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 .tri{
+    
     width: 20em;
     height: auto;
 }
@@ -125,4 +128,27 @@ section{
     height: 200px;
     width: 200px;
     transform: rotate(90deg);
+}
+
+@media (max-width: 622px) {
+
+    .text .textC{
+        height: 200px;
+        width: 200px;
+        transform: rotate(90deg);
+    }
+
+    section{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+    }
+
+    section .text{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+
 }
