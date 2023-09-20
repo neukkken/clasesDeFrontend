@@ -1,0 +1,128 @@
+.dados{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.dado{
+    background-color: black;
+    width: 6em;
+    height: 6em;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.dado:hover{
+    transform: scale(110%);
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.1);
+}
+
+
+.circulo{
+    background-color: red;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 10em;
+    margin: 0.3em;
+}
+
+#a{
+    margin: 0px 2em;
+}
+
+.tri .tal{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    width: 20em;
+    height: 20em;
+    margin-top: 25px;
+}
+
+.tri .tal div{
+    width: 5em;
+    height: 5em;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tri .tal div p{
+    transform: scale(250%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tri{
+    width: 20em;
+    height: auto;
+}
+
+.tri .tal .cuadro1{
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+}
+
+.tri .tal .cuadro2{
+    border-bottom: solid 1px;
+}
+
+.tri .tal .cuadro3{
+    border-left: solid 1px;
+    border-bottom: solid 1px;
+}
+
+.tri .tal .cuadro5{
+    border-left: solid 1px;
+}
+
+.tri .tal .cuadro6{
+    border-left: solid 1px;
+}
+
+.tri .tal .cuadro7{
+    border-right: solid 1px;
+    border-top: solid 1px;
+}
+
+.tri .tal .cuadro8{
+    border-top: solid 1px;
+}
+
+.tri .tal .cuadro9{
+    border-left: solid 1px;
+    border-top: solid 1px;
+}
+
+.circuloTri {
+    color: red;
+}
+
+.hr{
+    width: 0.1em;
+    height: 17em;
+    background-color: red;
+    transform: translateY(-265px) translateX(-39px) rotate(135deg);
+}
+
+section{
+    display: flex;
+}
+
+.text p{
+    border: solid 1px;
+    padding: 2em;
+    width: auto;
+    height: auto;
+}
+
+.text .textC{
+    height: 200px;
+    width: 200px;
+    transform: rotate(90deg);
+}
