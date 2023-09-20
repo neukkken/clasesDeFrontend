@@ -17,6 +17,8 @@
     transition: 0.3s;
 }
 
+
+
 .dado:hover{
     transform: scale(110%);
     box-shadow: 20px 20px 20px rgba(0,0,0,0.1);
@@ -29,7 +31,13 @@
     height: 1.5em;
     border-radius: 10em;
     margin: 0.3em;
+    transition: 0.3s;
 }
+
+.circulo:hover{
+    background-color: wheat;
+}
+
 
 #a{
     margin: 0px 2em;
