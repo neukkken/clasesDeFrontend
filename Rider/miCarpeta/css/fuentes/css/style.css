@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Rubik:wght@300;500;700&family=Tangerine:wght@700&display=swap');
+
+body{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+}
+
+
+header h1{
+    margin: 0px;
+    font-family: 'Tangerine';
+    font-size: 4em;
+    transition: 0.5s;
+}
+
+header h1:hover{
+    transform: scale(105%);
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+}
+
+.cartas{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    padding: 1em 2em 2em 2em;
+    transition: 0.3s;
+    margin: 1em;
+}
+
+.carta:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+.carta h1{
+    margin-bottom: 0.5em;
+}
+
+.carta p{
+    width: 100%;
+    margin: 0px;
+}
+
+.miParrafo1{
+    font-family: 'Rubik';
+}
+
+.miParrafo2{
+    font-family: 'Playfair Display';
+}
+
+.miParrafo1, .miParrafo2, .miParrafo3{
+    font-size: 1em;
+}
+
+.miParrafo3{
+    width: auto;
+    height: auto;
+    font-family: 'Gill Sans';
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    transform: rotate(90deg);
+    text-align: start;
+}
+
+
+.tal{
+    margin: 0px;
+    font-family: 'Rubik';
+    letter-spacing: 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    /* transform: rotate(90deg); */
+    
+}
+
+#carta4{
+    height: 50px;
+    border: 1px solid;
+    overflow: hidden;
+}
