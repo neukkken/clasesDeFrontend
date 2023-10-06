@@ -1,0 +1,12 @@
+FUNCION
+
+function add (a,b){
+    return a+b
+}
+
+FUNCION flecha
+
+const add = (a,b) => {a+b}
+
+
+tres objetos, y mostrar los tal
