@@ -21,11 +21,9 @@ function App(){
     return(
         <BrowserRouter>
             <Navbar/>
-            <br />
+            
             <AppRoutes/>
         </BrowserRouter>
-        
-        
     )
 }
 

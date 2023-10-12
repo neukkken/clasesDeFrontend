@@ -3,7 +3,7 @@ import Layout from "../../Components/Layout"
 function NotFound(){
     return(
         <Layout>
-            Ennove NotFound
+            ERROR 404 NOT FOUND
         </Layout>
     )
 }
