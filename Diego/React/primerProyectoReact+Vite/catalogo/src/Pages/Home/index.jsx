@@ -1,13 +1,13 @@
 import Layout from "../../Components/Layout"
 import Card from "../../Components/Card/Card"
 import Carusel from "../../Components/Carusel"
-import SubNavbar from "../../Components/SubNavbar"
+
 
 function Home(){
 
     return(
         <Layout>
-            <SubNavbar/>
+            
             <div className="cover">
                 <Carusel/>
             </div>
@@ -24,7 +24,7 @@ function Home(){
                 ></Card>
                 <Card
                     categoria='Nose'
-                    precio='901241141'
+                    precio='1'
                     objeto={''}
                     ruta={'src/img/celular.jpg'}
                 ></Card>
