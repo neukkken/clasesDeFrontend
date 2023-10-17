@@ -24,7 +24,7 @@ const Carusel = () => {
                 <button className="w-10 h-10 absolute flex bg-white" onClick={change()}>A</button>
             </div> */}
             <div className="flex items-center">
-                <img className="w-full max-w-7xl" src={rute[0]} alt="" />
+                <img className="w-full max-w-7xl" src={rute[1]} alt="" />
             </div>
             {/* <div className="flex justify-end items-center">
                 <button className="w-10 h-10 absolute flex bg-black" onClick={change()}>A</button>

@@ -35,7 +35,6 @@ const Navbar = () =>{
                             <option value="">ARROZ</option>
                             <option value="">ARROZ</option>
                             <option value="">ARROZ</option>
-
                         </select>
                     </li>
                     <li >
@@ -43,7 +42,6 @@ const Navbar = () =>{
                     </li>
                     <li>
                         <button className="flex w-16 h-10 bg-orange-300 hover:bg-orange-400 items-center rounded-r-md">
-
                         </button>
                     </li>
 

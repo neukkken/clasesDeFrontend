@@ -1,12 +1,15 @@
 import Layout from "../../Components/Layout"
 import Card from "../../Components/Card/Card"
 import Carusel from "../../Components/Carusel"
-
+import Footer from "../../Components/Footer"
 
 function Home(){
 
     return(
+        
         <Layout>
+            
+            
             
             <div className="cover">
                 <Carusel/>
@@ -64,9 +67,15 @@ function Home(){
                     objeto={''}
                     ruta={'src/img/celular.jpg'}
                 ></Card>
+                
 
+                <Footer/>
             </div>
+            
+            
+            
         </Layout>
+        
     )
 
 }
