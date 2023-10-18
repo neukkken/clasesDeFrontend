@@ -14,7 +14,7 @@ const Navbar = () =>{
 
                 <ul className="flex items-center">
                     <li>
-                        <select className="w-16 h-10 bg-gray-100/50 text-black rounded-l-md text-center" name="All" id="All">
+                        <select className="w-auto h-10 bg-gray-50/75 text-black rounded-l-md text-center" name="All" id="All">
                             <option value="">All</option>
                             <option value="">No se</option>
                             <option value="">Celues</option>
@@ -38,10 +38,10 @@ const Navbar = () =>{
                         </select>
                     </li>
                     <li >
-                        <input className="w-96 h-10 outline-none text-black" name="All" id="All" type="text" placeholder=" Search Amazon"/>
+                        <input className="w-96 h-10 outline-none text-black p-3" name="All" id="All" type="text" placeholder="Search Amazon"/>
                     </li>
                     <li>
-                        <button className="flex w-16 h-10 bg-orange-300 hover:bg-orange-400 items-center rounded-r-md">
+                        <button className="flex w-16 h-10 bg-orange-300 hover:bg-orange-400 items-center rounded-r-md p-3">
                         </button>
                     </li>
 

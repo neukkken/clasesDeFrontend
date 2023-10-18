@@ -19,7 +19,7 @@ const Carusel = () => {
 
 
     return(
-        <div className="flex h-full bg-slate-400">
+        <div className="flex w-full h-full bg-slate-400">
             {/* <div className="flex items-center">
                 <button className="w-10 h-10 absolute flex bg-white" onClick={change()}>A</button>
             </div> */}

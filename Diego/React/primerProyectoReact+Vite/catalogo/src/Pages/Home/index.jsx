@@ -17,7 +17,7 @@ function Home(){
         
                 
             
-            <div className="absolute top-80 flex flex-wrap justify-center items-center max-w-7xl" id="coso">
+            <div className="relative bottom-80 flex flex-wrap justify-center items-center max-w-7xl" id="coso">
                 
                 <Card
                     categoria='Dispositivo'
@@ -68,10 +68,13 @@ function Home(){
                     ruta={'src/img/celular.jpg'}
                 ></Card>
                 
+                
 
+                
+            </div>
+            <div className="relative items-end w-full">
                 <Footer/>
             </div>
-            
             
             
         </Layout>
