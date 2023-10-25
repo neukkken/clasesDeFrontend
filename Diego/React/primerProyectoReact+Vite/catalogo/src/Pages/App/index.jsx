@@ -4,6 +4,7 @@ import Contact from '../Contact'
 import NotFound from '../NotFound'
 import './App.css'
 import { useRoutes,BrowserRouter } from 'react-router-dom'
+import { CartContextProvider } from '../../Context'
 
 
 const AppRoutes = () => {
@@ -16,13 +17,15 @@ const AppRoutes = () => {
     return routes
 }
 
-
 function App(){
+
     return(
-        <BrowserRouter>
-            <Navbar/>
-            <AppRoutes/>
-        </BrowserRouter>
+        <CartContextProvider>
+            <BrowserRouter>
+                <Navbar/>
+                <AppRoutes/>
+            </BrowserRouter>
+        </CartContextProvider>
     )
 }
 

@@ -1,86 +1,47 @@
+import React from "react"
 import Layout from "../../Components/Layout"
 import Card from "../../Components/Card/Card"
 import Carusel from "../../Components/Carusel"
 import Footer from "../../Components/Footer"
+import { useState, useEffect } from "react"
+import ProductDetail from "../../Components/ProductDetail"
 
-function Home(){
+
+const Home = () => {
+    
+
+    const [items, setItems] = useState(null)
+
+    useEffect (()=> {
+        fetch('https://api.escuelajs.co/api/v1/products')
+        .then(response => response.json())
+        .then(data => setItems(data))
+    })
 
     return(
         
         <Layout>
             
-            
-            
-            <div className="cover">
-                <Carusel/>
-            </div>
-        
-                
-            
-            <div className="relative bottom-80 flex flex-wrap justify-center items-center max-w-7xl" id="coso">
-                
-                <Card
-                    categoria='Dispositivo'
-                    precio={901}
-                    objeto='iPhone 1'
-                    ruta={'src/img/celular.jpg'}
-                ></Card>
-                <Card
-                    categoria='Nose'
-                    precio='1'
-                    objeto={''}
-                    ruta={'src/img/celular.jpg'}
-                ></Card>
-                <Card
-                    categoria='coso'
-                    precio={902}
-                    objeto={''}
-                    ruta={'src/img/celular.jpg'}
-                ></Card>
-                <Card
-                    categoria='coso'
-                    precio={902}
-                    objeto={''}
-                    ruta={'src/img/celular.jpg'}
-                ></Card>
-                <Card
-                    categoria='coso'
-                    precio={902}
-                    objeto={''}
-                    ruta={'src/img/celular.jpg'}
-                ></Card>
-                <Card
-                    categoria='coso'
-                    precio={902}
-                    objeto={''}
-                    ruta={'src/img/celular.jpg'}
-                ></Card>
-                <Card
-                    categoria='coso'
-                    precio={902}
-                    objeto={''}
-                    ruta={'src/img/celular.jpg'}
-                ></Card>
-                <Card
-                    categoria='coso'
-                    precio={902}
-                    objeto={''}
-                    ruta={'src/img/celular.jpg'}
-                ></Card>
-                
-                
 
-                
+            
+
+            <div className="relative bottom-0 flex flex-wrap justify-center items-center max-w-screen-2xl">
+                {
+                    items?.map(item => (
+                        <Card key={item.id} data = {item} />
+                    ))
+                }
             </div>
-            <div className="relative items-end w-full">
+
+            <div className="flex justify-end items-end w-full mt-5">
                 <Footer/>
             </div>
             
-            
+            <ProductDetail/>
         </Layout>
         
     )
-
 }
+
 
 export default Home

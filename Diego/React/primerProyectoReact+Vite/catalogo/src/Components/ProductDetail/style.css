@@ -1,0 +1,13 @@
+.close-button:active{
+    background-color: black;
+    color: white;
+}
+
+.close-button{
+    transition: 0.3s;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50px;
+}

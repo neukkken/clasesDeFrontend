@@ -1,15 +1,19 @@
 import { NavLink } from "react-router-dom"
+import { useContext } from "react"
+import { CartContext } from "../../Context"
 
 const Navbar = () =>{
+    const context = useContext(CartContext)
+
     const activeStyle = ' underline underline-offset-4'
 
     return (
         <header>
             <nav className="m-auto flex justify-between items-center z-10 w-full h-14 py-7 px-10 text-sm font-bold bg-gray-900 text-white">
                 <ul className="flex items-center">
-                    <li className="flex items-center">
-                        <img className="w-24"  src="src\img\icons\pngwing.com.png" alt="" />
-                    </li>
+                    <a href="" className="flex items-center">
+                        <img className="w-24"  src="src\img\icons\amazon.png" alt="" />
+                    </a>
                 </ul>
 
                 <ul className="flex items-center">
@@ -37,6 +41,7 @@ const Navbar = () =>{
                             <option value="">ARROZ</option>
                         </select>
                     </li>
+
                     <li >
                         <input className="w-96 h-10 outline-none text-black p-3" name="All" id="All" type="text" placeholder="Search Amazon"/>
                     </li>
@@ -67,6 +72,9 @@ const Navbar = () =>{
                             className={({ isActive }) => isActive ? activeStyle : undefined} >
                                 Not Found
                         </NavLink>
+                    </li>
+                    <li>
+                        {context.count}
                     </li>
                 </ul>
             
